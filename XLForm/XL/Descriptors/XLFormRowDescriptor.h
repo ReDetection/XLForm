@@ -52,6 +52,7 @@ typedef void(^XLOnChangeBlock)(id __nullable oldValue,id __nullable newValue,XLF
 @property (nonatomic, nullable) id value;
 @property (nullable) Class valueTransformer;
 @property UITableViewCellStyle cellStyle;
+@property (nonatomic, strong, nullable) XLFormRowDescriptor *inlineRowDescriptor;
 
 @property (copy, nullable) XLOnChangeBlock onChangeBlock;
 
